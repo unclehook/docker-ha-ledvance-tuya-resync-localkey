@@ -7,4 +7,3 @@ imageTag=latest
 docker run --rm -it \
   --name=$containerName \
   $imageName:$imageTag bash 
-docker rm $containerName
