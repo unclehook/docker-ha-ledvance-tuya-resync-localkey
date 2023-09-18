@@ -5,6 +5,7 @@ For full reference see https://github.com/FlagX/ha-ledvance-tuya-resync-localkey
 
 ## Using ghcr.io image
 To run from GitHub generate Image:
+
 `docker run --rm -it ghcr.io/unclehook/docker-ha-ledvance-tuya-resync-localkey:main`
 
 **For detailed instruction see https://github.com/FlagX/ha-ledvance-tuya-resync-localkey.**
