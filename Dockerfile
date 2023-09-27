@@ -1,8 +1,9 @@
-LABEL org.opencontainers.image.source=https://github.com/unclehook/docker-ha-ledvance-tuya-resync-localkey
+FROM python:3.10-slim
+
+LABEL org.opencontainers.image.source="https://github.com/unclehook/docker-ha-ledvance-tuya-resync-localkey"
 LABEL org.opencontainers.image.description="Simple Dockerfile + scripts to build and run ha-ledvance-tuya-resync-localkey by FlagX"
 LABEL org.opencontainers.image.licenses=MIT
 
-FROM python:3.10-slim
 
 WORKDIR /code
 
